@@ -1,0 +1,39 @@
+.intro {
+    margin-top: 45px;
+}
+
+.intro__container {
+    background: url(/img/intro-background.png);
+    height: 600px;
+    position: relative;    
+}
+
+.intro__content {
+    position:absolute;
+    width: 439px;
+    top: 117px;
+    left: 85px;
+    bottom: 116px;
+}
+
+.intro__content-title {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.intro__content-description {
+    margin-top: 32px;
+    margin-bottom: 56px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(254, 252, 247);
+    opacity: 0.8;
+}
+

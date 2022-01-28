@@ -1,0 +1,14 @@
+@mixin collection-img {
+    display: inline-block;
+    width: 255px;
+    height: 193px;
+    content: '';
+}
+
+@mixin benefits-img {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin:72px 143px 56px 136px;
+    content: '';
+}

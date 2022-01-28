@@ -1,0 +1,34 @@
+.footer__nav {
+    display: flex;
+    align-items: center;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.footer__logo {
+    margin-right: 102px;
+}
+
+.footer__list {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    margin-right: 369px;
+}
+
+.footer__list-item a {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.footer__social-list {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-between;
+}
