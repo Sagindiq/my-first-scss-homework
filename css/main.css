@@ -139,7 +139,7 @@ footer {
 }
 
 .intro__container {
-  background: url(/img/intro-background.png);
+  background: url(../img/intro-background.png);
   height: 600px;
   position: relative;
 }
@@ -215,7 +215,7 @@ footer {
   width: 255px;
   height: 193px;
   content: '';
-  background: url(/img/gran-espresso.png);
+  background: url(../img/gran-espresso.png);
   background-size: contain;
 }
 
@@ -225,7 +225,7 @@ footer {
   width: 255px;
   height: 193px;
   content: '';
-  background: url(/img/planalto.png);
+  background: url(../img/planalto.png);
   width: 256px;
   background-size: contain;
 }
@@ -236,7 +236,7 @@ footer {
   width: 255px;
   height: 193px;
   content: '';
-  background: url(/img/picollo.png);
+  background: url(../img/picollo.png);
   width: 256px;
 }
 
@@ -246,7 +246,7 @@ footer {
   width: 255px;
   height: 193px;
   content: '';
-  background: url(/img/danche.png);
+  background: url(../img/danche.png);
   width: 234px;
   height: 177px;
 }
@@ -341,7 +341,7 @@ footer {
   height: 72px;
   margin: 72px 143px 56px 136px;
   content: '';
-  background-image: url(/img/coffee.svg);
+  background-image: url(../img/coffee.svg);
 }
 
 .benefits__list-item:nth-child(2)::before {
@@ -350,7 +350,7 @@ footer {
   height: 72px;
   margin: 72px 143px 56px 136px;
   content: '';
-  background-image: url(/img/box.svg);
+  background-image: url(../img/box.svg);
 }
 
 .benefits__list-item:last-child::before {
@@ -359,7 +359,7 @@ footer {
   height: 72px;
   margin: 72px 143px 56px 136px;
   content: '';
-  background-image: url(/img/car.svg);
+  background-image: url(../img/car.svg);
   height: 50px;
   margin: 83px 142px 67px 136px;
 }
