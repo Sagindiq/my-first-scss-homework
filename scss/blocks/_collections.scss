@@ -33,14 +33,14 @@
 .gran-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(/img/gran-espresso.png);
+    background: url(..img/gran-espresso.png);
     background-size: contain;
 }
 
 .planalto-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(/img/planalto.png);
+    background: url(..img/planalto.png);
     width: 256px;
     background-size: contain;
 }
@@ -48,14 +48,14 @@
 .piccollo-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(/img/picollo.png);
+    background: url(..img/picollo.png);
     width: 256px;
 }
 
 .danche-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(/img/danche.png);
+    background: url(..img/danche.png);
     width: 234px;
     height: 177px;
 }
