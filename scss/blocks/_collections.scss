@@ -9,6 +9,7 @@
 .collection__list {
     display: flex;
     align-items: center;
+    // position: relative;
 }
 
 .collection__list-item {
@@ -22,25 +23,34 @@
 
 .collection-background-text {
     position: absolute;
-    width: 1111px;
-    height: 196px;
-    font-weight: bold;
-    font-size: 190px;
-    color: #f1f0ec;
+    // color: #f1f0ec;
     z-index: -1;
+
+    left:19px;
+    top: 34px;
+
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 180px;
+    line-height: 142px;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #83888F;
+    background-image:linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
 }
 
 .gran-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(..img/gran-espresso.png);
+    background: url(../img/gran-espresso.png);
     background-size: contain;
 }
 
 .planalto-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(..img/planalto.png);
+    background: url(../img/planalto.png);
     width: 256px;
     background-size: contain;
 }
@@ -48,14 +58,14 @@
 .piccollo-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(..img/picollo.png);
+    background: url(../img/picollo.png);
     width: 256px;
 }
 
 .danche-item::before {
     margin-top: 116px;
     @include collection-img;
-    background: url(..img/danche.png);
+    background: url(../img/danche.png);
     width: 234px;
     height: 177px;
 }

@@ -58,17 +58,17 @@
 
 .benefits__list-item:first-child::before {
     @include benefits-img;
-    background-image: url(..img/coffee.svg);
+    background-image: url(../img/coffee.svg);
 }
 
 .benefits__list-item:nth-child(2)::before {
     @include benefits-img;
-    background-image: url(..img/box.svg);
+    background-image: url(../img/box.svg);
 }
 
 .benefits__list-item:last-child::before {
     @include benefits-img;
-    background-image: url(..img/car.svg);
+    background-image: url(../img/car.svg);
     height: 50px;
     margin: 83px 142px 67px 136px;
 }
